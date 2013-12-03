@@ -34,3 +34,6 @@ set t_Co=256
 let g:Powerline_symbols='unicode'
 set encoding=utf8
 
+" autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4
+au Filetype python setl et ts=4 sw=4
+au Filetype ruby setl et ts=2 sw=2
