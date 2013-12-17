@@ -1,4 +1,3 @@
-
 " git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
 set nocompatible
@@ -12,7 +11,7 @@ call vundle#rc()
 Bundle 'gmark/vundle'
 
 Bundle 'tpope/vim-rails.git'
-Bundle 'mattn/zencoding-vim'
+Bundle 'mattn/emmet-vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'Shougo/neocomplcache'
 Bundle 'AutoClose'
