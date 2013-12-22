@@ -18,6 +18,7 @@ Bundle 'Shougo/neocomplcache'
 Bundle 'AutoClose'
 Bundle 'kien/ctrlp.vim' 
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'altercation/vim-colors-solarized'
 
 
 filetype plugin indent on
@@ -33,6 +34,37 @@ set laststatus=2
 set t_Co=256
 let g:Powerline_symbols='unicode'
 set encoding=utf8
+
+" solarized theme
+set t_Co=256
+let g:solarized_termcolors=256
+colorscheme solarized
+set background=dark
+
+" syntax highlighting
+syntax on
+
+set number
+set autochdir
+
+" auto reload while file is changed outside
+set autoread
+
+" Tab related
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+set expandtab	" User spances instead of tabs
+
+set list
+set listchars=tab:\|\
+
+set autoindent
+set smartindent
+
+set showcmd
+set incsearch
+set hlsearch
 
 " autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4
 au Filetype python setl et ts=4 sw=4
