@@ -1,3 +1,4 @@
+# git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
@@ -47,13 +48,13 @@ source ~/.bash_aliases
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git ruby rails3 autojump rvm github git-flow bundler pow rails vim)
+plugins=(git ruby autojump rvm github git-flow bundler pow rails vim)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 alias cls='clear'
-alias ll='ls -l'
+alias ll='ls -lh'
 alias la='ls -a'
 alias vi='vim'
 alias javac="javac -J-Dfile.encoding=utf8"

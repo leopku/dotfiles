@@ -56,7 +56,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 alias cls='clear'
-alias ll='ls -l'
+alias ll='ls -lh'
 alias la='ls -a'
 alias vi='vim'
 alias javac="javac -J-Dfile.encoding=utf8"
