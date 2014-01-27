@@ -2,7 +2,6 @@
 " vim +BundleInstall +qall
 
 set nocompatible
-set paste
 
 filetype off
 
@@ -18,8 +17,8 @@ Bundle 'Shougo/neocomplcache'
 Bundle 'AutoClose'
 Bundle 'kien/ctrlp.vim' 
 Bundle 'Lokaltog/vim-powerline'
-Bundle 'altercation/vim-colors-solarized'
-
+" Bundle 'altercation/vim-colors-solarized'
+Bundle 'jtai/vim-womprat'
 
 filetype plugin indent on
 
@@ -36,10 +35,11 @@ let g:Powerline_symbols='unicode'
 set encoding=utf8
 
 " solarized theme
-set t_Co=256
-let g:solarized_termcolors=256
-colorscheme solarized
-set background=dark
+" set t_Co=256
+" let g:solarized_termcolors=256
+" colorscheme solarized
+" set background=dark
+colorscheme womprat
 
 " syntax highlighting
 syntax on
@@ -65,6 +65,7 @@ set smartindent
 set showcmd
 set incsearch
 set hlsearch
+set paste
 
 " autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4
 au Filetype python setl et ts=4 sw=4
