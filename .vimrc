@@ -8,7 +8,7 @@ filetype off
 set rtp+=~/.vim/bundle/vundle
 call vundle#rc()
 
-Bundle 'gmark/vundle'
+Bundle 'gmarik/vundle'
 
 " Bundle 'tpope/vim-rails.git'
 Bundle 'mattn/emmet-vim'
