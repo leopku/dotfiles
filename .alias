@@ -14,8 +14,8 @@ alias config.alias.local.refresh="source $HOME/.alias_local"
 alias config.hosts='sudo vim /etc/hosts'
 alias config.vim="vim $HOME/.vimrc"
 
-alias get.port_alive='nc -zv'
-alias get.wild_ip='curl ip.cn'
+alias network.port_alive='nc -zv'
+alias network.wild_ip='curl ip.cn'
 
 alias -g NUL="> /dev/null 2>&1" # You get the idea.
 

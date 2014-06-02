@@ -1,5 +1,8 @@
 # vi: set ft=zsh :
 
 antigen bundle brew
-antigen bundle rbenv
+# antigen bundle rbenv
+# antigen bundle rvm
+# antigen bundle pyenv
 antigen bundle vagrant
+antigen bundle sublime

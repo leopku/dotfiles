@@ -1,6 +1,7 @@
 # vi: set ft=zsh :
 
-antigen bundle rvm
+# antigen bundle rvm
 # antigen bundle rbenv
 # antigen bundle vagrant
-antigen bundle mysql
+antigen bundle screen
+

@@ -33,6 +33,8 @@ antigen use oh-my-zsh
 
 antigen bundles <<EOBUNDLES
     bundler
+    capistrano
+    catimg
     colored-man
     command-not-found
     extract
@@ -42,8 +44,9 @@ antigen bundles <<EOBUNDLES
     bobthecow/git-flow-completion
     history
     python
+    rails
     rsync
-    sublime
+    urltools
     vundle
     zsh-users/zsh-syntax-highlighting
     zsh-users/zsh-history-substring-search
