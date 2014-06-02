@@ -1,0 +1,25 @@
+# vi: set ft=zsh :
+
+alias ll='ls -lGh'
+alias la='ls -lAGh'
+
+alias config.zsh="vim $HOME/.zshrc"
+alias config.zsh.refresh="source $HOME/.zshrc"
+alias config.zsh.local="vim $HOME/.zshrc_local"
+alias config.zsh.local.refresh="source $HOME/.zshrc_local"
+alias config.alias="vim $HOME/.alias"
+alias config.alias.refresh="source $HOME/.alias"
+alias config.alias.local="vim $HOME/.alias_local"
+alias config.alias.local.refresh="source $HOME/.alias_local"
+alias config.hosts='sudo vim /etc/hosts'
+alias config.vim="vim $HOME/.vimrc"
+
+alias get.port_alive='nc -zv'
+alias get.wild_ip='curl ip.cn'
+
+alias -g NUL="> /dev/null 2>&1" # You get the idea.
+
+alias ssh.root='ssh -l root'
+alias ssh.git='ssh -l git'
+alias ssh.wwwdata='ssh -l www-data'
+alias ssh.nginx='ssh -l nginx'
