@@ -1,3 +1,4 @@
+# git clone git@github.com:zsh-users/antigen.git ~/.antigen/antigen
 # start_time="$(date +%s)"
 
 source ~/.antigen/antigen/antigen.zsh

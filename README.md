@@ -4,10 +4,17 @@ My MacOS/Linux rc (config) files include's zsh, vim ect.
 
 ## Install
 
+### Get antigen
+
+```console
+$ mkdir ~/.antigen
+$ git clone git://github.com/zsh-users/antigen.git ~/.antigen/antigen
+```
+
 ### Get project
 
 ```console
-$ git clone https://github.com/leopku/dotfiles.git
+$ git clone git://github.com/leopku/dotfiles.git
 ```
 
 ### Prepare files
