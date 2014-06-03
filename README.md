@@ -49,8 +49,8 @@ default aliases file, provides following commands:
 * `config.alias.refresh` : reload `~/.alias_local`
 * `config.vim` : open `~/.vimrc` in vim
 * `config.hosts` : open `/etc/hosts` in vim with root(sudo)
-* `get.port_alive` : using `get.port_alive <ip> <port>` to testing port is aliving
-* `get.wild_ip` : get internet outgoing ip.
+* `network.port_alive` : using `get.port_alive <ip> <port>` to testing port is aliving
+* `netwok.wild_ip` : get internet outgoing ip.
 
 ## Customize
 
