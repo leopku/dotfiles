@@ -4,3 +4,9 @@
 alias network.listening='netstat -ntlp'
 alias network.all_link='netstat -antp'
 
+alias ssh.rsa_pub_key.copy_to_clipboard='cat ~/.ssh/id_rsa.pub | pbcopy'
+
+alias config.zsh.copy_from_github='cp ~/source/shell/dotfiles/.zshrc ~/.zshrc'
+alias config.zsh.copy_to_github='cp ~/.zshrc ~/source/shell/dotfiles/.zshrc'
+alias config.alias.copy_from_github='cp ~/source/shell/dotfiles/.alias ~/.alias'
+alias config.alias.copy_to_github='cp ~/.alias ~/source/shell/dotfiles/.alias'
