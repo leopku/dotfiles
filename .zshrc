@@ -50,6 +50,7 @@ antigen bundles <<EOBUNDLES
     git-extras
     bobthecow/git-flow-completion
     history
+    npm
     python
     rails
     rbenv
@@ -62,11 +63,12 @@ antigen bundles <<EOBUNDLES
 EOBUNDLES
 
 # antigen theme https://gist.github.com/3750104.git agnoster
-antigen theme fino
+# antigen theme fino
 # antigen theme suvash 
 # antigen themem murilasso
 # antigen themem crunch
 # antigen themem gnzh
+antigen theme https://gist.github.com/leopku/75435e606128443a64f7 fino-simplify
 
 antigen apply
 
