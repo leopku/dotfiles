@@ -1,4 +1,4 @@
-# git clone git@github.com:zsh-users/antigen.git ~/.antigen/antigen
+# git clone git://github.com/zsh-users/antigen.git ~/.antigen/antigen
 # start_time="$(date +%s)"
 
 DISABLE_AUTO_UPDATE="true"
