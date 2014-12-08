@@ -38,15 +38,16 @@ set encoding=utf8
 Bundle 'scrooloose/syntastic'
 " Bundle 'altercation/vim-colors-solarized'
 Bundle 'jtai/vim-womprat'
-" Bundle 'chriskempson/base16-vim'
+Bundle 'chriskempson/base16-vim'
 
 Bundle 'Lokaltog/vim-easymotion'
 " solarized theme
 " let g:solarized_termcolors=256
 " colorscheme solarized
 " set background=dark
-colorscheme womprat
-" colorscheme base16-ocean
+" colorscheme womprat
+let g:airline_theme='base16'
+colorscheme base16-ocean
 
 Bundle 'vim-scripts/bufexplorer.zip'
 Bundle 'terryma/vim-multiple-cursors'
@@ -86,3 +87,7 @@ filetype plugin indent on
 " autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4
 au Filetype python setl et ts=4 sw=4
 au Filetype ruby setl et ts=2 sw=2
+
+if filereadable(expand("~/.vimrc.local"))
+    source ~/.vimrc.local
+endif
