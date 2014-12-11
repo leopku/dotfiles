@@ -1,0 +1,11 @@
+# Possible colors: red, green, yellow, blue, magenta, cyan and white.
+check_mail:0
+defaultcscheme:log
+
+colorscheme:log
+cs_re:green:.*INFO.*
+cs_re:yellow:.*WARN.*
+cs_re:magenta:.*SEVERE.*
+cs_re:red:.*FATAL.*
+cs_re:red:.*ERROR.*
+cs_re:blue:.*DEBUG.*
