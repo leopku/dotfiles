@@ -39,6 +39,8 @@ bindkey -M vicmd 'j' history-substring-search-down
 antigen use oh-my-zsh
 
 antigen bundles <<EOBUNDLES
+    brew
+    brew-cask
     bundler
     capistrano
     catimg
