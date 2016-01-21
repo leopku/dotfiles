@@ -63,9 +63,9 @@ set autochdir
 set autoread
 
 " Tab related
-set shiftwidth=4
-set tabstop=4
-set softtabstop=4
+set shiftwidth=2
+set tabstop=2
+set softtabstop=2
 set expandtab	" User spances instead of tabs
 
 set list
