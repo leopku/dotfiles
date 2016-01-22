@@ -33,11 +33,10 @@ Bundle 'tpope/vim-fugitive'
 " let g:Powerline_symbols='unicode'
 
 set laststatus=2
-set t_Co=256
 set encoding=utf8
 
 Bundle 'scrooloose/syntastic'
-" Bundle 'altercation/vim-colors-solarized'
+Bundle 'altercation/vim-colors-solarized'
 Bundle 'jtai/vim-womprat'
 Bundle 'chriskempson/base16-vim'
 
@@ -47,8 +46,15 @@ Bundle 'Lokaltog/vim-easymotion'
 " colorscheme solarized
 " set background=dark
 " colorscheme womprat
-let g:airline_theme='base16'
-colorscheme base16-ocean
+
+" Configure UI {
+  let g:airline_theme='base16'
+  set term=screen-256color
+  set t_Co=256
+  set background=dark
+  let base16colorspace=256
+  colorscheme base16-ocean
+" }
 
 Bundle 'vim-scripts/bufexplorer.zip'
 Bundle 'terryma/vim-multiple-cursors'
