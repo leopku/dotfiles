@@ -1,0 +1,36 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+name = leopku
+email = leopku@qq.com
+[core]
+  # excludesfile = /Users/leo/.gitignore_global
+  editor = /usr/bin/vim
+# [difftool "sourcetree"]
+#   cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+#   path = 
+# [mergetool "sourcetree"]
+#   cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.0.5.2/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+#   trustExitCode = true
+[merge]
+  tool = kdiff3
+[mergetool]
+  prompt = false
+[mergetool "kdiff3"]
+  path = /usr/local/bin/kdiff3
+[mergetool "vimdiff"]
+  tool = kdiff3
+[diff]
+  tool = kdiff3
+[difftool]
+  prompt = false
+[difftool "vimdiff"]
+  tool = vimdiff
+[difftool "kdiff3"]
+  path = /usr/local/bin/kdiff3
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.0.5.2/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
