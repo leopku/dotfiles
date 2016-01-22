@@ -13,6 +13,7 @@ Bundle 'gmarik/vundle'
 " Bundle 'tpope/vim-rails.git'
 Bundle 'mattn/emmet-vim'
 Bundle 'scrooloose/nerdtree'
+Bundle 'editorconfig/editorconfig-vim'
 
 " NERDTree {
   map <C-e> :NERDTreeToggle<CR>
