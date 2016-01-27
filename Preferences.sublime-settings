@@ -1,0 +1,36 @@
+{
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"font_face": "mplus-1mn-light",
+	"font_size": 15,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"ActionScript",
+		"ASP",
+		"Batch File",
+		"C#",
+		"Clojure",
+		"D",
+		"Erlang",
+		"Groovy",
+		"Haskell",
+		"LaTeX",
+		"Lisp",
+		"Lua",
+		"Matlab",
+		"Nunjucks Syntax",
+		"OCaml",
+		"Pascal",
+		"Scala",
+		"TCL",
+		"Textile",
+		"Theme - Default",
+		"Vintage",
+		"XML"
+	],
+	"line_padding_bottom": -3,
+	"line_padding_top": -3,
+	"tab_size": 2,
+	"theme": "Spacegray.sublime-theme",
+	"translate_tabs_to_spaces": true
+}
