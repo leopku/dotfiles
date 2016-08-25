@@ -1,4 +1,6 @@
 export PATH="$HOME/.rbenv/bin:$HOME/.ndenv/bin:$HOME/.jenv/bin:$HOME/.pyenv/bin:$PATH"
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
+export SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/
 eval "$(rbenv init -)"
 eval "$(ndenv init -)"
 eval "$(jenv init -)"
