@@ -2,6 +2,6 @@
 :backtrace: false
 :bulk_threshold: 1000
 :sources:
-- https://ruby.taobao.org
+- https://mirrors.tuna.tsinghua.edu.cn/rubygems/
 :update_sources: true
 :verbose: true
