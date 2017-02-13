@@ -1,5 +1,5 @@
 export PATH="$HOME/.rbenv/bin:$HOME/.ndenv/bin:$HOME/.jenv/bin:$HOME/.pyenv/bin:$PATH"
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 export SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/
 export PHANTOMJS_CDNURL=https://npm.taobao.org/dist/phantomjs
 export ANDROID_HOME=/usr/local/Cellar/android-sdk
