@@ -41,19 +41,25 @@ Bundle 'jtai/vim-womprat'
 Bundle 'chriskempson/base16-vim'
 
 Bundle 'Lokaltog/vim-easymotion'
+
+Plugin 'arcticicestudio/nord-vim'
+Plugin 'rakr/vim-one'
 " solarized theme
 " let g:solarized_termcolors=256
 " colorscheme solarized
 " set background=dark
 " colorscheme womprat
 
+
 " Configure UI {
-  let g:airline_theme='base16'
+  let g:airline_theme='nord'
   set term=screen-256color
   set t_Co=256
   set background=dark
   let base16colorspace=256
-  colorscheme base16-ocean
+  " colorscheme base16-ocean
+  " colorscheme solarized
+  colorscheme nord 
 " }
 
 Bundle 'vim-scripts/bufexplorer.zip'
